@@ -1,11 +1,11 @@
 ---
-name: SAS
+name: ANSYS 
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch a [SAS] GUI on the [Cheaha cluster]. You will be able
-  to interact with the SAS GUI through a VNC session.
+  This app will launch a [ANSYS] GUI on the [Cheaha cluster]. You will be able
+  to interact with the ANSYS GUI through a VNC session.
 
-  [SAS]: https://www.sas.com/en_us/home.html 
+  [ANSYS]: https://www.ansys.com/ 
   [Cheaha cluster]: https://docs.uabgrid.uab.edu/wiki/Cheaha_GettingStarted
