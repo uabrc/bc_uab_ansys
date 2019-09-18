@@ -27,10 +27,10 @@ attributes:
 
   version:
     widget: select
-    label: "SAS version"
-    help: "This defines the version of SAS you want to load."
+    label: "ANSYS version"
+    help: "This defines the version of ANSYS you want to load."
     options:
-      - [ "v9.4", "sas/v9.4" ]
+      - [ "19.1", "ANSYS/19.1" ]
 form:
   - version
   - bc_num_hours
