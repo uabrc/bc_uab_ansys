@@ -1,10 +1,9 @@
-# Batch Connect - OSC MATLAB
+# Batch Connect - OSC ANSYS 
 
 ![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_matlab.svg)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A Batch Connect app designed for OSC OnDemand that launches MATLAB within an
-Owens batch job.
+A Batch Connect app designed for OSC OnDemand that launches ANSYS within Cheaha.
 
 ## Prerequisites
 
@@ -12,7 +11,7 @@ This Batch Connect app requires the following software be installed on the
 **compute nodes** that the batch job is intended to run on (**NOT** the
 OnDemand node):
 
-- [MATLAB] R2016b+
+- [ANSYS] 18.1
 - [Xfce Desktop] 4+
 
 For VNC server support:
@@ -30,7 +29,7 @@ For hardware rendering support:
 - [Lmod] 6.0.1+ or any other `module purge` and `module load <modules>` based
   CLI used to load appropriate environments within the batch job
 
-[MATLAB]: https://www.mathworks.com/
+[ANSYS]: https://www.ansys.com/
 [Xfce Desktop]: https://xfce.org/
 [TurboVNC]: http://www.turbovnc.org/
 [websockify]: https://github.com/novnc/websockify
@@ -65,7 +64,7 @@ Again, you do not need to restart the app as it isn't a Passenger app.
 
 ## Contributing
 
-1. Fork it ( https://github.com/OSC/bc_osc_matlab/fork )
+1. Fork it ( https://github.com/uabrc/ood_ansys.git/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
