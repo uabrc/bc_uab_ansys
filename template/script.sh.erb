@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-
 # Clean the environment
-module purge
+module reset
 
 # Set working directory to home directory
 cd "${HOME}"
@@ -29,6 +28,6 @@ cd "${HOME}"
 #
 
 # Load the required environment
-module load ANSYS
+module load <%= context.version %>
 # Launch ANSYS workbench
 runwb2
