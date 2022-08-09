@@ -23,14 +23,17 @@ attributes:
     widget: select
     label: Partition
     options:
-      - [ "low", "low" ]
+      - [ "defq", "defq" ]
 
   version:
     widget: select
     label: "ANSYS version"
     help: "This defines the version of ANSYS you want to load."
     options:
-      - [ "19.1", "ANSYS/19.1" ]
+{% for ver in ansys_versions %}
+      - [ "{{ ver }}", "{{ ansys_module_name }}/{{ ver }}" ]
+{% endfor %}
+
 form:
   - version
   - bc_num_hours
