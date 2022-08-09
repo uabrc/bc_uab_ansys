@@ -30,10 +30,7 @@ attributes:
     label: "ANSYS version"
     help: "This defines the version of ANSYS you want to load."
     options:
-{% for ver in ansys_versions %}
-      - [ "{{ ver }}", "{{ ansys_module_name }}/{{ ver }}" ]
-{% endfor %}
-
+      - [ "19.1", "ANSYS/19.1" ]
 form:
   - version
   - bc_num_hours
