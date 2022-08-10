@@ -39,9 +39,9 @@ attributes:
     label: "ANSYS version"
     help: "This defines the version of ANSYS you want to load."
     options:
-{% for ver in ansys_versions %}
-      - [ "{{ ver }}", "{{ ansys_module_name }}/{{ ver }}" ]
-{% endfor %}
+      - [ "2021R1", "ANSYS/2021R1" ]
+      - [ "2020R2", "ANSYS/2020R2" ]
+      - [ "2020R1", "ANSYS/2020R1" ]
 
 form:
   - version
